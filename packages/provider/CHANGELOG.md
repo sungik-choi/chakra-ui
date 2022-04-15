@@ -1,5 +1,13 @@
 # @chakra-ui/provider
 
+## 1.7.15-next.0
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @chakra-ui/system@1.12.2-next.0
+  - @chakra-ui/portal@1.3.11-next.0
+
 ## 1.7.14
 
 ### Patch Changes

@@ -1,5 +1,13 @@
 # Change Log
 
+## 1.1.8-next.0
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @chakra-ui/system@1.12.2-next.0
+  - @chakra-ui/icon@2.0.6-next.0
+
 ## 1.1.7
 
 ### Patch Changes

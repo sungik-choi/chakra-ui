@@ -1,5 +1,12 @@
 # @chakra-ui/table
 
+## 1.3.7-next.0
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @chakra-ui/system@1.12.2-next.0
+
 ## 1.3.6
 
 ### Patch Changes

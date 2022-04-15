@@ -1,6 +1,6 @@
 {
   "name": "@chakra-ui/control-box",
-  "version": "1.1.6",
+  "version": "1.1.7-next.0",
   "description": "Chakra UI ControlBox component",
   "keywords": [
     "checkbox",
@@ -34,11 +34,11 @@
     "@chakra-ui/utils": "1.10.4"
   },
   "devDependencies": {
-    "@chakra-ui/system": "1.12.1",
+    "@chakra-ui/system": "1.12.2-next.0",
     "react": "^18.0.0"
   },
   "peerDependencies": {
-    "@chakra-ui/system": ">=1.0.0",
+    "@chakra-ui/system": ">=1.12.2-next.0",
     "react": ">=16.8.6"
   },
   "sideEffects": false

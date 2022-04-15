@@ -1,5 +1,13 @@
 # @chakra-ui/anatomy
 
+## 1.3.1-next.0
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @chakra-ui/system@1.12.2-next.0
+  - @chakra-ui/theme-tools@1.3.7-next.0
+
 ## 1.3.0
 
 ### Minor Changes

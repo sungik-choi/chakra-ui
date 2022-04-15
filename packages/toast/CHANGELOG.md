@@ -1,5 +1,23 @@
 # Change Log
 
+## 2.0.0-next.1
+
+### Patch Changes
+
+- [#5850](https://github.com/chakra-ui/chakra-ui/pull/5850)
+  [`1f62d9a65`](https://github.com/chakra-ui/chakra-ui/commit/1f62d9a658f0179e60524f13a21543194f034fe5)
+  Thanks [@TimKolberger](https://github.com/TimKolberger)! - Removed dependency
+  to @reach-ui/alert
+
+- Updated dependencies
+  [[`1a47fd27e`](https://github.com/chakra-ui/chakra-ui/commit/1a47fd27e6e37ff5d149e0469888eed0ec306632)]:
+  - @chakra-ui/hooks@2.0.0-next.0
+  - @chakra-ui/theme@2.0.0-next.0
+  - @chakra-ui/system@1.12.2-next.0
+  - @chakra-ui/portal@1.3.11-next.0
+  - @chakra-ui/alert@1.3.8-next.0
+  - @chakra-ui/close-button@1.2.8-next.0
+
 ## 2.0.0-next.0
 
 ### Major Changes

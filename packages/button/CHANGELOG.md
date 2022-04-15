@@ -1,5 +1,63 @@
 # Change Log
 
+## 2.0.0-next.0
+
+### Major Changes
+
+- [#5828](https://github.com/chakra-ui/chakra-ui/pull/5828)
+  [`1a47fd27e`](https://github.com/chakra-ui/chakra-ui/commit/1a47fd27e6e37ff5d149e0469888eed0ec306632)
+  Thanks [@segunadebayo](https://github.com/segunadebayo)! - ### Remove
+  deprecations
+
+  **Affected components or packages:**
+
+  **Button, Icon Button, Input, NumberInput, Radio, Checkbox, Select**
+
+  - Removed the `isFullWidth` deprecation. Use `width=full` or `width=100%`
+
+  **Checkbox**
+
+  - Removed `defaultIsChecked`. Use `defaultChecked`
+
+  **Color mode**
+
+  - Removed references to `--chakra-ui-color-mode`. Use `data-theme` property
+    instead
+
+  **Hooks**
+
+  - Removed `useEventCallback` hook
+
+  **Input / NumberInput**
+
+  - Removed the `isFullWidth` deprecation. Use `width=full` or `width=100%`
+
+  **Grid**
+
+  - Removed the `area` prop from `Grid` component. Should be passed to the
+    `GridItem` instead.
+
+  **Styled system**
+
+  - Removed the `d` style prop. Use `display` instead.
+  - Removed the `isTruncated` style prop. Use `noOfLines={1}` instead.
+
+  **Theme**
+
+  - Removed deprecated types.
+
+### Patch Changes
+
+- [#5754](https://github.com/chakra-ui/chakra-ui/pull/5754)
+  [`d0d08141b`](https://github.com/chakra-ui/chakra-ui/commit/d0d08141bee7f7c2f776d01798dfbeccfdde5978)
+  Thanks [@novascreen](https://github.com/novascreen)! - Fix `ButtonGroup` to
+  collapse borders when using `isAttached` with `variant="outline"`
+- Updated dependencies
+  [[`1a47fd27e`](https://github.com/chakra-ui/chakra-ui/commit/1a47fd27e6e37ff5d149e0469888eed0ec306632)]:
+  - @chakra-ui/hooks@2.0.0-next.0
+  - @chakra-ui/system@1.12.2-next.0
+  - @chakra-ui/spinner@1.2.7-next.0
+
 ## 1.5.10
 
 ### Patch Changes

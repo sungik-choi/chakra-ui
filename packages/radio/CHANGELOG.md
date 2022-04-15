@@ -1,5 +1,60 @@
 # Change Log
 
+## 2.0.0-next.0
+
+### Major Changes
+
+- [#5828](https://github.com/chakra-ui/chakra-ui/pull/5828)
+  [`1a47fd27e`](https://github.com/chakra-ui/chakra-ui/commit/1a47fd27e6e37ff5d149e0469888eed0ec306632)
+  Thanks [@segunadebayo](https://github.com/segunadebayo)! - ### Remove
+  deprecations
+
+  **Affected components or packages:**
+
+  **Button, Icon Button, Input, NumberInput, Radio, Checkbox, Select**
+
+  - Removed the `isFullWidth` deprecation. Use `width=full` or `width=100%`
+
+  **Checkbox**
+
+  - Removed `defaultIsChecked`. Use `defaultChecked`
+
+  **Color mode**
+
+  - Removed references to `--chakra-ui-color-mode`. Use `data-theme` property
+    instead
+
+  **Hooks**
+
+  - Removed `useEventCallback` hook
+
+  **Input / NumberInput**
+
+  - Removed the `isFullWidth` deprecation. Use `width=full` or `width=100%`
+
+  **Grid**
+
+  - Removed the `area` prop from `Grid` component. Should be passed to the
+    `GridItem` instead.
+
+  **Styled system**
+
+  - Removed the `d` style prop. Use `display` instead.
+  - Removed the `isTruncated` style prop. Use `noOfLines={1}` instead.
+
+  **Theme**
+
+  - Removed deprecated types.
+
+### Patch Changes
+
+- Updated dependencies
+  [[`1a47fd27e`](https://github.com/chakra-ui/chakra-ui/commit/1a47fd27e6e37ff5d149e0469888eed0ec306632)]:
+  - @chakra-ui/hooks@2.0.0-next.0
+  - @chakra-ui/system@1.12.2-next.0
+  - @chakra-ui/form-control@1.6.1-next.0
+  - @chakra-ui/visually-hidden@1.1.7-next.0
+
 ## 1.5.1
 
 ### Patch Changes

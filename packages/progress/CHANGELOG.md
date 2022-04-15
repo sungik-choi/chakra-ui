@@ -1,5 +1,13 @@
 # Change Log
 
+## 1.2.7-next.0
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @chakra-ui/system@1.12.2-next.0
+  - @chakra-ui/theme-tools@1.3.7-next.0
+
 ## 1.2.6
 
 ### Patch Changes
